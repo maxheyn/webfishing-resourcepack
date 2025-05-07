@@ -1,0 +1,148 @@
+{
+  "model": {
+    "type": "select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/cod"
+    },
+    "cases": [
+      {
+        "when": {
+          "tag": "wf_fihs"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_fihs"
+        }
+      },
+      {
+        "when": {
+          "tag": "wf_glormaw"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_glormaw"
+        }
+      },
+      {
+        "when": {
+          "tag": "wf_palladiumperch"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_palladiumperch"
+        }
+      },
+      {
+        "when": {
+          "tag": "wf_eelris"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_eelris"
+        }
+      },
+      {
+        "when": {
+          "tag": "wf_titaniumtrout"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_titaniumtrout"
+        }
+      },
+      {
+        "when": {
+          "tag": "wf_orichalcumoarfish"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_orichalcumoarfish"
+        }
+      },
+      {
+        "when": {
+          "tag": "wf_dietdrkelp"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_dietdrkelp"
+        }
+      },
+      {
+        "when": {
+          "tag": "wf_hondacivic"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_hondacivic"
+        }
+      },
+      {
+        "when": {
+          "tag": "wf_jabbinggar"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_jabbinggar"
+        }
+      },
+      {
+        "when": {
+          "tag": "wf_dreadnoughtciscol"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_dreadnoughtciscol"
+        }
+      },
+      {
+        "when": {
+          "tag": "wf_glorbfish"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_glorbfish"
+        }
+      },
+      {
+        "when": {
+          "tag": "wf_diamondswordfish"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_diamondswordfish"
+        }
+      },
+      {
+        "when": {
+          "tag": "wf_vampiresquid"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_vampiresquid"
+        }
+      },
+      {
+        "when": {
+          "tag": "wf_pugfish"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_pugfish"
+        }
+      },
+      {
+        "when": {
+          "tag": "wf_bubbles"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_bubbles"
+        }
+      }
+    ]
+  }
+}

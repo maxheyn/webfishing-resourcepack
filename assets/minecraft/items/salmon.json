@@ -1,0 +1,130 @@
+{
+  "model": {
+    "type": "select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/salmon"
+    },
+    "cases": [
+      {
+        "when": {
+          "tag": "wf_skrimpy"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_skrimpy"
+        }
+      },
+      {
+        "when": {
+          "tag": "wf_maxyfish"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_maxyfish"
+        }
+      },
+      {
+        "when": {
+          "tag": "wf_cobaltkoi"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_cobaltkoi"
+        }
+      },
+      {
+        "when": {
+          "tag": "wf_mythrilmackrel"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_mythrilmackrel"
+        }
+      },
+      {
+        "when": {
+          "tag": "wf_adamantitearowana"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_adamantitearowana"
+        }
+      },
+      {
+        "when": {
+          "tag": "wf_matchafish"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_matchafish"
+        }
+      },
+      {
+        "when": {
+          "tag": "wf_plurblefimsh"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_plurblefimsh"
+        }
+      },
+      {
+        "when": {
+          "tag": "wf_quackshank"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_quackshank"
+        }
+      },
+      {
+        "when": {
+          "tag": "wf_enderfish"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_enderfish"
+        }
+      },
+      {
+        "when": {
+          "tag": "wf_altheiaticray"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_altheiaticray"
+        }
+      },
+      {
+        "when": {
+          "tag": "wf_stevefish"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_stevefish"
+        }
+      },
+      {
+        "when": {
+          "tag": "wf_kittyfin"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_kittyfin"
+        }
+      },
+      {
+        "when": {
+          "tag": "wf_pompompupfish"
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_pompompupfish"
+        }
+      }
+    ]
+  }
+}
