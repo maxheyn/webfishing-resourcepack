@@ -181,6 +181,13 @@
           "type": "minecraft:model",
           "model": "webfishing:item/wf_frogfish"
         }
+      },
+      {
+        "when": ["wf_krabbypatty"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "webfishing:item/wf_krabbypatty"
+        }
       }
     ]
   }
